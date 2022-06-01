@@ -1,10 +1,11 @@
+import { IntWelcome } from "./interface";
 import { WelcomeWrapper } from "./styles";
 
-const Welcome = () => {
+const Welcome = ({h1,h2}:IntWelcome) => {
     return(
         <WelcomeWrapper>
-            <h1>Filip Bukowiecki</h1>
-            <h2>wideomaker i montażysta filmów</h2>
+            <h1>{h1}</h1>
+            <h2>{h2}</h2>
         </WelcomeWrapper>
     )
 }

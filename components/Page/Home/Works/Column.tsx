@@ -8,7 +8,7 @@ const Column = ({movies,title}:IntColumn) => {
                 {title}
             </h3>
             <ul className="grid">
-                {movies.slice(0,4).map((item,key) =>
+                {movies.map((item,key) =>
                     <Work
                         key={key}
                         movie={item}

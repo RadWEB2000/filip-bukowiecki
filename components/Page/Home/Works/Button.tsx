@@ -1,10 +1,11 @@
 import Link from "next/link"
 import { TiSocialYoutube } from "react-icons/ti"
+import { IntButton } from "./interface";
 import { ButtonWrapper } from "./styles";
-const Button = () => {
+const Button = ({path}:IntButton) => {
     return(
         <ButtonWrapper>
-            <Link href=''>
+            <Link href={path}>
                 <a>
                     <span>
                         <TiSocialYoutube/>

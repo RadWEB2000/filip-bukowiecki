@@ -4,3 +4,8 @@ export interface IntOffer {
     icon:ReactElement;
     title:string;
 }
+
+export interface IntOffers {
+    title:string;
+    cards:any[];
+}

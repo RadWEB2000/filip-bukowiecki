@@ -4,30 +4,50 @@ import Hero from "../components/Page/Home/Hero/Hero";
 import Offers from "../components/Page/Home/Offers/Offers";
 import Welcome from "../components/Page/Home/Welcome/Welcome";
 import Works from "../components/Page/Home/Works/Works";
+import { content } from "../content/content";
 import Layout from "../schema/Layout";
 
 const Page:NextPage = () => {
+  const {about,hero,offers,seo,sound,works} = content;
   return(
     <Layout
-      description="Jeśli szukasz osoby, która zrealizuje dla Ciebie film z wesela lub spot to nie mogłeś lepiej trafić. Postaw na profesjonalizm i zapał."
-      image="/assets/images/mis.jpg"
-      title="Filip Bukowiecki - operator kamery, montażysta filmowy, Poznań"
+      description={seo.description}
+      image={seo.image}
+      title={seo.title}
     >
       <audio
-        src='/assets/sound/try.mp3'
+        src={sound}
         autoPlay
         loop
-        hidden
       />
-      <Hero/>
+      <Hero
+        movie={hero.movie}
+      />
       <main>
-        <Welcome/>
+        <Welcome
+          h1={hero.h1}
+          h2={hero.h2}
+        />
         <span id='kim-jestem'/>
-        <About/>
+        <About
+          content={about.content}
+          image={about.image}
+          title={about.title}
+        />
         <span id='realizacje'/>
-        <Works/>
+        <Works
+          assembled={works.movies.assembled}
+          content={works.content}
+          path={works.path}
+          recorded={works.movies.recorded}
+          title={works.title}
+        />
         <span id='oferty'/>
-        <Offers/>
+        <Offers
+          cards={offers.cards}
+          title={offers.title}
+        />
+        <span id='opinie'/>
         <span id='kontakt'/>
       </main>
     </Layout>

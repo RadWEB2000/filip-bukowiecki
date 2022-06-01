@@ -4,6 +4,7 @@ const Work = ({movie}:IntWork) => {
     return(
         <WorkWrapper>
             <iframe 
+                loading="lazy"
                 src={movie}
                 title="YouTube video player" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

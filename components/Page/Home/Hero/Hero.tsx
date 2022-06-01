@@ -1,13 +1,14 @@
+import { IntHero } from "./interface";
 import { HeroWrapper } from "./styles";
 
-const Hero = () => {
+const Hero = ({movie}:IntHero) => {
     return(
         <HeroWrapper>
             <video
                 autoPlay
                 loop
                 muted
-                src='/assets/movie/backgroundVideo.mp4'
+                src={movie}
             />
         </HeroWrapper>
     )

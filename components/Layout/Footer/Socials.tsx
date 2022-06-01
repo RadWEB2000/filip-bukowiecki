@@ -1,37 +1,19 @@
 import SocialItem from "./SocialItem"
-import {RiFacebookFill,RiInstagramLine,RiYoutubeFill} from 'react-icons/ri'
-import {CgMail,CgSmartphone} from 'react-icons/cg'
 import { SocialsWrapper } from "./styles";
+import { content } from "../../../content/content";
 const Socials = () => {
+    const {socials} = content.layout;
     return(
         <SocialsWrapper>
             <ul>
-                <SocialItem
-                    icon={<CgSmartphone/>}
-                    path='#'
-                    title=''
-                />
-                <SocialItem
-                    icon={<RiFacebookFill/>}
-                    path='#'
-                    title=''
-                />
-                <SocialItem
-                    icon={<RiInstagramLine/>}
-                    path='#'
-                    title=''
-                />
-                <SocialItem
-                    icon={<RiYoutubeFill/>}
-                    path='#'
-                    title=''
-                />
-                <SocialItem
-                    icon={<CgMail/>}
-                    path='mailto:filip.bukowiecki@gmail.com'
-                    title=''
-                />
-                
+                {socials.map(({icon,path,title},key:number) =>
+                    <SocialItem
+                        icon={icon}
+                        key={key}
+                        path={path}
+                        title={title}
+                    />
+                )}
             </ul>
         </SocialsWrapper>
     )

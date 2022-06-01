@@ -9,9 +9,10 @@ export const MenuItemWrapper = styled.li`
         border-radius:5rem;
         display:flex;
         justify-content:center;
-        font-size:3rem;
+        font-family:${({theme}) => theme.fonts.heading};
+        font-size:2.5rem;
         font-weight:700;
-        height:5.75rem;
+        height:5.25rem;
         max-width:85%;
         margin:0 auto;
         text-transform:uppercase;

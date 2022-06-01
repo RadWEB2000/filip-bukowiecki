@@ -54,7 +54,7 @@ export const Global = createGlobalStyle`
         }
         & > span{
             display:flex;
-            height:10rem;
+            height:1rem;
         }
     }
 
@@ -91,6 +91,10 @@ export const Global = createGlobalStyle`
             @media (max-width:940px){
                 font-size:3.8rem;
                 width:100%;
+            }
+            @media (max-width:300px){
+                font-size:2.6rem;
+                text-align:center;
             }
             @media (max-width:220px){
                 font-size:2.2rem;

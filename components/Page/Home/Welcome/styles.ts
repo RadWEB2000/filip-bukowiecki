@@ -11,7 +11,6 @@ export const WelcomeWrapper = styled.section`
     & > * {
         text-align:center;
         text-shadow:0 0 1rem ${({theme}) => theme.colors.gray};
-        word-break:break-all;
         word-wrap:break-word;
     }
     & > h1{

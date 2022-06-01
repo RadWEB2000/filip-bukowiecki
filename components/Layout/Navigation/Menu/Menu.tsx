@@ -1,8 +1,10 @@
+import { content } from "../../../../content/content";
 import CloseButton from "../Button/CloseButton";
 import { IntButton } from "../Button/interface";
 import MenuItem from "./MenuItem"
 import { MenuWrapper } from "./styles";
 const Menu = ({handle}:IntButton) => {
+    const {menu} = content.layout;
     return(
         <MenuWrapper
             initial={{opacity:0,y:-150,visibility:'hidden'}}
@@ -16,26 +18,14 @@ const Menu = ({handle}:IntButton) => {
             </div>
             <section>
                 <menu>
-                    <MenuItem
-                        path="/"
-                        title='Start'
-                    />
-                    <MenuItem
-                        path="#kim-jestem"
-                        title='O mnie'
-                    />
-                    <MenuItem
-                        path="#realizacje"
-                        title='Realizacje'
-                    />
-                    <MenuItem
-                        path="#oferty"
-                        title='Oferty'
-                    />
-                    <MenuItem
-                        path="#kontakt"
-                        title='Kontakt'
-                    />
+                    {menu.map(({path,title},key:number) =>
+                        <MenuItem
+                            handle={handle}
+                            key={key}
+                            path={path}
+                            title={title}
+                        />                    
+                    )}
                 </menu>
             </section>
         </MenuWrapper>
