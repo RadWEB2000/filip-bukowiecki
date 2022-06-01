@@ -1,6 +1,4 @@
 # Filip Bukowiecki - Portfolio
-
-
 |||
 | --- | ---|
 | Link | [page](https://google.com) |
@@ -14,10 +12,4 @@
 |  | ReactJs |
 |  | NextJs |
 |  | framer motion |
-
-
-
-
-
-
 ![profile image of Filip Bukowiecki](public/assets/images/mis.jpg)
