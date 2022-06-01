@@ -56,6 +56,21 @@ export const content = {
             },
         ]
     },
+    reviews:{
+        title:'Opinie',
+        cards:[
+            {
+                image:'https://images.unsplash.com/photo-1546456073-92b9f0a8d413?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+                title:'Armand Górski',
+                content:`Integer malesuada congue arcu. Aenean quis pellentesque ex, efficitur tincidunt magna. Aenean velit ipsum, dignissim pretium varius quis, mattis id nibh. Praesent ac ligula vitae augue dictum tincidunt. Etiam sodales pulvinar est in eleifend. Aliquam tristique, turpis eget vulputate tempus, lacus dui semper odio, eu posuere tellus eros eu tellus.`
+            },
+            {
+                image:'https://images.unsplash.com/photo-1546456073-92b9f0a8d413?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+                title:'Armand Górski',
+                content:`Integer malesuada congue arcu. Aenean quis pellentesque ex, efficitur tincidunt magna. Aenean velit ipsum, dignissim pretium varius quis, mattis id nibh. Praesent ac ligula vitae augue dictum tincidunt. Etiam sodales pulvinar est in eleifend. Aliquam tristique, turpis eget vulputate tempus, lacus dui semper odio, eu posuere tellus eros eu tellus.`
+            },
+        ]
+    },
     layout:{
         menu:[
             {
