@@ -1,5 +1,6 @@
-import { CgMail, CgSmartphone } from 'react-icons/cg';
-import {RiFacebookFill, RiInstagramLine, RiMovie2Line, RiYoutubeFill} from 'react-icons/ri';
+import { CgCamera, CgMail, CgSmartphone } from 'react-icons/cg';
+import {RiFacebookFill, RiInstagramLine, RiMovieLine,RiMovie2Line, RiYoutubeFill} from 'react-icons/ri';
+
 export const content = {
     seo:{
         title:'Filip Bukowiecki - operator kamery, montażysta filmowy, Poznań',
@@ -40,7 +41,7 @@ export const content = {
         title:'Oferty',
         cards:[
             {
-                icon:<RiMovie2Line/>,
+                icon:<CgCamera/>,
                 title:'Operator kamery',
                 content:`Szukasz operatora, który nakręci dla Ciebie teledysk? A może wywiad, albo relację z eventu, a może nawet film fabularny? W każdym z tych rodzajów filmów mam doświadczenie. Jednak decydując się na mnie, nie decydujesz się na pierwszego lepszego filmowca. Oferuję unikalne podejście do każdego tematu i gwarantuję jakość oraz kinowe ujęcia w każdym realizowanym przeze mnie projekcie. `
             },
@@ -51,7 +52,7 @@ export const content = {
                 To Ty jesteś szefem, to jest Twój film, więc wszystko uzgodnimy a ja dołożę wszelkich starań, aby zmontować wszystko tak jak sobie wyobraziłeś.`
             },
             {
-                icon:<RiMovie2Line/>,
+                icon:<RiMovieLine/>,
                 title:'Realizacja filmów weselnych',
                 content:`Ślub to dla wielu najważniejszy dzień w życiu, dlatego też klienci chcą aby był jak najlepiej uwieczniony. Oferuję nowoczesne i oryginalne podejście. Jeżeli nie interesuje cię 3 godzinny film nagrany z jednej perspektywy, jeżeli szukasz nowoczesnego filmu, który będzie piękną pamiątką z wesela, a teledysk będzie artystycznym odzwierciedleniem waszych charakterów`
             },
