@@ -41,18 +41,19 @@ export const content = {
         cards:[
             {
                 icon:<RiMovie2Line/>,
-                title:'Realizacja filmów weselnych',
-                content:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in est quis risus varius tincidunt. Praesent vitae lectus ornare, tincidunt tellus ut, aliquam dolor. Phasellus vitae mauris metus. Fusce vel ex vitae nunc sollicitudin eleifend. Ut pellentesque nunc orci, dapibus imperdiet purus sodales nec. In eget porta urna, et tincidunt libero. Nulla interdum velit vel consectetur ultrices.`
+                title:'Operator kamery',
+                content:`Szukasz operatora, który nakręci dla Ciebie teledysk? A może wywiad, albo relację z eventu, a może nawet film fabularny? W każdym z tych rodzajów filmów mam doświadczenie. Jednak decydując się na mnie, nie decydujesz się na pierwszego lepszego filmowca. Oferuję unikalne podejście do każdego tematu i gwarantuję jakość oraz kinowe ujęcia w każdym realizowanym przeze mnie projekcie. `
+            },
+            {
+                icon:<RiMovie2Line/>,
+                title:'Montaż filmowy',
+                content:`Jestem również montażystą. Na co dzień pracuję w programie Adobe Premiere Pro, także jeżeli szukasz osoby, która nada świeżego spojrzenia Twoim ujęciom, lub urzeczywistni Twoją wizję, daj znać. Usiądziemy, porozmawiamy, aby efekt końcowy był najwyższej klasy.
+                To Ty jesteś szefem, to jest Twój film, więc wszystko uzgodnimy a ja dołożę wszelkich starań, aby zmontować wszystko tak jak sobie wyobraziłeś.`
             },
             {
                 icon:<RiMovie2Line/>,
                 title:'Realizacja filmów weselnych',
-                content:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in est quis risus varius tincidunt. Praesent vitae lectus ornare, tincidunt tellus ut, aliquam dolor. Phasellus vitae mauris metus. Fusce vel ex vitae nunc sollicitudin eleifend. Ut pellentesque nunc orci, dapibus imperdiet purus sodales nec. In eget porta urna, et tincidunt libero. Nulla interdum velit vel consectetur ultrices.`
-            },
-            {
-                icon:<RiMovie2Line/>,
-                title:'Realizacja filmów weselnych',
-                content:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in est quis risus varius tincidunt. Praesent vitae lectus ornare, tincidunt tellus ut, aliquam dolor. Phasellus vitae mauris metus. Fusce vel ex vitae nunc sollicitudin eleifend. Ut pellentesque nunc orci, dapibus imperdiet purus sodales nec. In eget porta urna, et tincidunt libero. Nulla interdum velit vel consectetur ultrices.`
+                content:`Ślub to dla wielu najważniejszy dzień w życiu, dlatego też klienci chcą aby był jak najlepiej uwieczniony. Oferuję nowoczesne i oryginalne podejście. Jeżeli nie interesuje cię 3 godzinny film nagrany z jednej perspektywy, jeżeli szukasz nowoczesnego filmu, który będzie piękną pamiątką z wesela, a teledysk będzie artystycznym odzwierciedleniem waszych charakterów`
             },
         ]
     },
@@ -60,14 +61,14 @@ export const content = {
         title:'Opinie',
         cards:[
             {
-                image:'https://images.unsplash.com/photo-1546456073-92b9f0a8d413?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-                title:'Armand Górski',
-                content:`Integer malesuada congue arcu. Aenean quis pellentesque ex, efficitur tincidunt magna. Aenean velit ipsum, dignissim pretium varius quis, mattis id nibh. Praesent ac ligula vitae augue dictum tincidunt. Etiam sodales pulvinar est in eleifend. Aliquam tristique, turpis eget vulputate tempus, lacus dui semper odio, eu posuere tellus eros eu tellus.`
+                image:'/assets/images/armand-gorny.jpg',
+                title:'Armand Górny',
+                content:`Z Filipem pracowałem podczas kręcenia pierwszego filmu promocyjnego dla mojej firmy. Sama współpraca przebiegała bardzo płynnie, określiłem swoje potrzeby następnie omówiliśmy projekt filmu i zabraliśmy się do pracy. Efekt przerósł moje najśmielsze oczekiwania..`
             },
             {
-                image:'https://images.unsplash.com/photo-1546456073-92b9f0a8d413?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-                title:'Armand Górski',
-                content:`Integer malesuada congue arcu. Aenean quis pellentesque ex, efficitur tincidunt magna. Aenean velit ipsum, dignissim pretium varius quis, mattis id nibh. Praesent ac ligula vitae augue dictum tincidunt. Etiam sodales pulvinar est in eleifend. Aliquam tristique, turpis eget vulputate tempus, lacus dui semper odio, eu posuere tellus eros eu tellus.`
+                image:'/assets/images/klaudia-wieczorek.jpg',
+                title:'Klaudia Wieczorek',
+                content:`Praca z Filipem to czysta przyjemność:) Wiedza techniczna połączona z kreatywnością i niezwykłym słuchem muzycznym. Taneczny klip był moim marzeniem, a Filip zrozumiał moją wizję, i najważniejsze - zrealizował wszystkie założenia. Poza tym niezwykle zorganizowany, co znacznie podnosi jakość pracy. Cierpliwy i otwarty na uwagi, skrupulatnie wprowadził poprawki. Efekt finalny przeszedł ZNACZNIE moje oczekiwania:) Z ręką na sercu, polecam!`
             },
         ]
     },
