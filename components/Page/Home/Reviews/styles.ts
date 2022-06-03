@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CardsWrapper = styled.ul`
-    align-items:center;
+    align-items:start;
     display:flex;
     flex-flow:row wrap;
     justify-content:space-evenly;
