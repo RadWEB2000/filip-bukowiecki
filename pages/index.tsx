@@ -16,11 +16,6 @@ const Page:NextPage = () => {
       image={seo.image}
       title={seo.title}
     >
-      <audio
-        src={sound}
-        autoPlay
-        loop
-      />
       <Hero
         movie={hero.movie}
       />
