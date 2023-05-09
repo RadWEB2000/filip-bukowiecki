@@ -24,7 +24,7 @@ export const content = {
         content:`Dzięki współpracy z różnymi firmami, miałem okazję pracować przy przeróżnych rodzajach filmów, a co za tym idzie zdobyłem doświadczenie jako “one man army”, na planach filmowych czy podczas transmisji na żywo (zarówno jako operator jak i realizator). Wiem jak bardzo ważny w tej branży jest kontakt z klientem, dlatego uzbrojony w cierpliwość, jestem gotowy zrealizować film dla Ciebie!`,
         movies:{
             assembled:[
-                'https://www.youtube.com/embed/wrd770kZnaE',
+                "https://www.youtube.com/embed/N5Gul_JQvUI",
                 'https://www.youtube.com/embed/r9ZVveQ9dMI',
                 'https://www.youtube.com/embed/DcJ9T3N6m3M',
                 'https://www.youtube.com/embed/uPTmHk9sI0U',
